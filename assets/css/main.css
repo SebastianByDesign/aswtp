@@ -1,0 +1,7 @@
+@font-face {
+  font-family: 'alvarocondensed';
+  src: url('../fonts/alvaro-condensed-webfont.woff') format('woff2'),
+       url('../fonts/alvaro-condensed-webfont.woff2') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
