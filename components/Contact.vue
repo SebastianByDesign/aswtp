@@ -7,7 +7,7 @@
           class="contact__inner row p-2 d-flex flex-column flex-lg-row justify-content-center align-items-center"
           v-editable="blok">
           <div class="col-11 pt-3 col-lg-8">
-            <h1 class="blue">{{blok.headline}}</h1>
+            <h2 class="blue">{{blok.headline}}</h2>
             <p class="text-white">{{blok.address}}</p>
             <p><a class="text-white" :href="'mailto:' + blok.email.email">{{blok.email.email}}</a></p>
             <p><a class="text-white" :href="'tel:' + blok.phone.url">{{blok.phone.url}}</a></p>
@@ -46,7 +46,7 @@
   $pink: #ffb6c1;
 
   .row {
-    h1 {
+    h2 {
       font-family: "alvarocondensed";
     }
     a, p, th, td {

@@ -10,7 +10,7 @@
             <img :src="blok.image.filename + '/m/'"/>
           </div>
           <div class="col-12 col-md-10 col-lg-6">
-            <h1 class="mt-3 mb-2 ml-2">{{blok.headline}}</h1>
+            <h2 class="mt-3 mb-2 ml-2">{{blok.headline}}</h2>
             <p class="m-2">{{blok.paragraph}}</p>
           </div>
         </div>
@@ -25,7 +25,7 @@
     img {
       width: 100%;
     }
-    h1 {
+    h2 {
       font-family: "alvarocondensed";
     }
     p {

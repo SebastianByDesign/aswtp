@@ -5,12 +5,12 @@
       class="music_player__inner row dark pt-5 pb-5 d-flex flex-column flex-lg-row justify-content-center align-items-center"
       v-editable="blok">
       <div class="container">
-        <h1 class="text-center blue mb-3">{{blok.headline}}</h1>
+        <h2 class="text-center blue mb-3">{{blok.headline}}</h2>
         <div class="row d-flex flex-column flex-lg-row justify-content-center align-items-center">
           <div class="col-11 pt-3 bg-light col-lg-8">
             <div class="row d-flex flex-column flex-lg-row justify-content-center align-items-center">
               <div class="col-11 col-lg-3">
-                <a rel="nofollow" :href="blok.link.url"><img :src="blok.album_cover.filename + '/m/'"/></a>
+                <a rel="nofollow" :href="blok.link.url" target="_blank"><img :src="blok.album_cover.filename + '/m/'"/></a>
               </div>
               <div class="col-11 col-lg-9">
                 <p class="mt-1 mb-0"><strong>{{ currentAudioName || audioList[0].song_title }}</strong></p>
@@ -62,7 +62,7 @@
     img {
       width: 100%;
     }
-    h1 {
+    h2 {
       font-family: "alvarocondensed";
     }
     p {

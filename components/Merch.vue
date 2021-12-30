@@ -4,7 +4,7 @@
     <div class="merch__inner row pt-5 pb-5 d-flex flex-column flex-lg-row justify-content-center align-items-center"
       v-editable="blok">
       <div class="container">
-        <h1 class="text-center mb-3">{{blok.headline}} coming soon!</h1>
+        <h2 class="text-center mb-3">{{blok.headline}} coming soon!</h2>
         <!-- <div class="row d-flex flex-column flex-lg-row justify-content-center align-items-center">
           <div class="col-11 pt-3 col-lg-12 p-4">
             <p class="text-center">Coming soon!</p>
@@ -21,7 +21,7 @@
     img {
       width: 100%;
     }
-    h1 {
+    h2 {
       font-family: "alvarocondensed";
     }
     p {

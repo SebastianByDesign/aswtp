@@ -1,18 +1,24 @@
 <template>
   <div class="hero" id="hero">
-    <div class="row hero bg d-flex flex-column flex-lg-row justify-content-center align-items-center" :style="cssVars">
+    <div class="row hero__inner bg d-flex flex-column flex-lg-row justify-content-center align-items-center" :style="cssVars">
       <img class="logo mt-5" :src="blok.image.filename"/>
+      <a class="call-to-action p-0" rel="nofollow" :href="blok.link.url" target="_blank">
+        <img class="album" :src="blok.album_cover.filename + '/m/'"/>
+        <h3 class="mt-2 pl-2 pr-2">{{ blok.call_to_action }}</h3>
+      </a>
     </div>
   </div>
 </template>
 
 <style lang="scss">
+  $blue: #BDE9F1;
+  $pink: #ffb6c1;
 
-  .row {
-    &.hero {
+  .hero {
+    .hero__inner {
       height: 95vh;
     }
-    &.bg {
+    .bg {
       background-image: var(--bg-image);
       background-size: contain;
     }
@@ -25,11 +31,22 @@
     img {
       width: 100%;
     }
-    h1 {
+    h3 {
       font-family: "alvarocondensed";
+      text-align: center;
+      line-height: 1;
+      color: black;
     }
-    p {
-      font-family: Helvetica, Arial, sans-serif;
+    .call-to-action {
+      background-color: $blue;
+      position: absolute;
+      right: 20px;
+      top: 80px;
+      max-width: 15%;
+      min-width: 120px;
+      &:hover {
+        background-color: $pink;
+      }
     }
   }
   
