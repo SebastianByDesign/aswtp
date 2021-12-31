@@ -30,7 +30,7 @@
             </ul>
           </div>
           <div class="col-11 col-lg-4 py-4">
-            <a class="twitter-timeline" height="300" data-theme="light" href="https://twitter.com/ASWTPOfficial?ref_src=twsrc%5Etfw">Tweets by ASWTPOfficial</a>
+            <img loading="lazy" class="logo" :alt="blok.image.alt" :src="blok.image.filename"/>
           </div>
           <div class="col-11">
             <p class="text-white text-center">©2021 A Short Walk to Pluto</p>
@@ -59,6 +59,12 @@
       &:hover {
         color: $pink !important;
         text-decoration: none;
+      }
+    }
+    .logo {
+      height: 30vh;
+      @media (max-width: 991px) {
+        width: 100%;
       }
     }
   }

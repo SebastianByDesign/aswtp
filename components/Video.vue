@@ -8,7 +8,7 @@
         <h2 class="text-center blue mb-3">{{blok.headline}}</h2>
         <div class="row d-flex flex-column flex-lg-row justify-content-center align-items-center">
           <div class="col-11 pt-3 col-lg-12 p-4">
-            <iframe width="100%" height="415" :src="blok.link.url" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe loading="lazy" width="100%" height="415" :src="blok.link.url" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
         </div>
       </div>
