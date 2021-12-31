@@ -10,7 +10,7 @@
           <div class="col-11 pt-3 bg-light col-lg-8">
             <div class="row d-flex flex-column flex-lg-row justify-content-center align-items-center">
               <div class="col-11 col-lg-3">
-                <a rel="nofollow" :href="blok.link.url" target="_blank"><img :src="blok.album_cover.filename + '/m/'"/></a>
+                <a rel="nofollow" :href="blok.link.url" target="_blank"><img :alt="blok.album_cover.alt" :src="blok.album_cover.filename + '/m/'"/></a>
               </div>
               <div class="col-11 col-lg-9">
                 <p class="mb-0"><strong>{{ currentAudioName || audioList[0].song_title }}</strong></p>

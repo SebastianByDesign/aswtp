@@ -7,7 +7,7 @@
           class="about__inner row d-flex justify-content-center align-items-center"
           v-editable="blok">
           <div class="col-12 col-md-10 col-lg-6 pr-4 pl-4 pb-0">
-            <img :src="blok.image.filename + '/m/'"/>
+            <img :alt="blok.image.alt" :src="blok.image.filename + '/m/'"/>
           </div>
           <div class="col-12 col-md-10 col-lg-6">
             <h2 class="mt-3 mb-2 ml-2">{{blok.headline}}</h2>

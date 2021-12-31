@@ -1,9 +1,9 @@
 <template>
   <div class="hero" id="hero">
     <div class="row hero__inner bg d-flex flex-column flex-lg-row justify-content-center align-items-center" :style="cssVars">
-      <img class="logo mt-5" :src="blok.image.filename"/>
+      <img class="logo mt-5" :alt="blok.image.alt" :src="blok.image.filename"/>
       <a class="call-to-action p-0" rel="nofollow" :href="blok.link.url" target="_blank">
-        <img class="album" :src="blok.album_cover.filename + '/m/'"/>
+        <img class="album" :alt="blok.album_cover.alt" :src="blok.album_cover.filename + '/m/'"/>
         <h3 class="mt-2 pl-2 pr-2">{{ blok.call_to_action }}</h3>
       </a>
     </div>
