@@ -13,9 +13,9 @@
                 <a rel="nofollow" :href="blok.link.url" target="_blank"><img :src="blok.album_cover.filename + '/m/'"/></a>
               </div>
               <div class="col-11 col-lg-9">
-                <p class="mt-1 mb-0"><strong>{{ currentAudioName || audioList[0].song_title }}</strong></p>
-                <p>{{blok.album_name}}</p>
-                <audio-player class="pr-1 pl-1 pb-1"
+                <p class="mb-0"><strong>{{ currentAudioName || audioList[0].song_title }}</strong></p>
+                <p class="mb-0">{{blok.album_name}}</p>
+                <audio-player class="p-0"
                   ref="audioPlayer"
                   :audio-list="audioList.map(elm => elm.mp3.filename)"
                   :before-play="handleBeforePlay"
