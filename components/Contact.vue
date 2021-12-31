@@ -30,7 +30,7 @@
             </ul>
           </div>
           <div class="col-11 col-lg-4 py-4">
-            <img loading="lazy" class="logo" :alt="blok.image.alt" :src="blok.image.filename"/>
+            <img loading="lazy" class="wendy" :alt="blok.image.alt" :src="blok.image.filename"/>
           </div>
           <div class="col-11">
             <p class="text-white text-center">©2021 A Short Walk to Pluto</p>
@@ -61,7 +61,7 @@
         text-decoration: none;
       }
     }
-    .logo {
+    .wendy {
       height: 30vh;
       @media (max-width: 991px) {
         width: 100%;
