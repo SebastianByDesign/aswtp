@@ -45,6 +45,7 @@ export default {
   buildModules: [
     '@nuxtjs/style-resources',
     '@nuxtjs/fontawesome',
+    '@nuxtjs/moment',
   ],
 
   fontawesome: {

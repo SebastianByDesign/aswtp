@@ -7,12 +7,12 @@
       <div class="container">
         <h2 class="text-center blue mb-3">{{blok.headline}}</h2>
         <div class="row d-flex flex-column flex-lg-row justify-content-center align-items-center">
-          <div class="col-11 pt-3 bg-light col-lg-8">
+          <div class="col-12 px-4 pt-3 bg-light col-lg-8">
             <div class="row d-flex flex-column flex-lg-row justify-content-center align-items-center">
-              <div class="col-11 col-lg-3">
+              <div class="col-12 col-lg-3">
                 <a rel="nofollow" :href="blok.link.url" target="_blank"><img :alt="blok.album_cover.alt" :src="blok.album_cover.filename + '/m/'"/></a>
               </div>
-              <div class="col-11 col-lg-9">
+              <div class="col-12 col-lg-9">
                 <p class="mb-0"><strong>{{ currentAudioName || audioList[0].song_title }}</strong></p>
                 <p class="mb-0">{{blok.album_name}}</p>
                 <audio-player class="p-0"
@@ -28,23 +28,13 @@
           </div>
         </div>
         <div class="row d-flex flex-column flex-lg-row justify-content-center align-items-center">
-          <div class="col-11 bg-light col-lg-8 mb-2">
+          <div class="col-12 px-4 bg-light col-lg-8 mb-2">
             <table class="table mb-2">
               <tbody>
-                <tr class="bg-light">
-                  <th scope="row">{{ audioList[0].song_number }}</th>
-                  <td>{{ audioList[0].song_title }}</td>
-                  <td class="text-right">{{ audioList[0].song_length }}</td>
-                </tr>
-                <tr class="bg-light">
-                  <th scope="row">{{ audioList[1].song_number }}</th>
-                  <td>{{ audioList[1].song_title }}</td>
-                  <td class="text-right">{{ audioList[1].song_length }}</td>
-                </tr>
-                <tr class="bg-light">
-                  <th scope="row">{{ audioList[2].song_number }}</th>
-                  <td>{{ audioList[2].song_title }}</td>
-                  <td class="text-right">{{ audioList[2].song_length }}</td>
+                <tr v-for="song in audioList" :key="song.song_number" class="bg-light">
+                  <th scope="row">{{ song.song_number }}</th>
+                  <td>{{ song.song_title }}</td>
+                  <td class="text-right">{{ song.song_length }}</td>
                 </tr>
               </tbody>
             </table>

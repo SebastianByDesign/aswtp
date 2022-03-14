@@ -4,9 +4,9 @@
     <div class="row black d-flex flex-column flex-lg-row justify-content-center align-items-center">
       <div class="container">
         <div 
-          class="contact__inner row p-2 d-flex flex-column flex-lg-row justify-content-center align-items-center"
+          class="contact__inner row d-flex flex-column flex-lg-row justify-content-center align-items-center"
           v-editable="blok">
-          <div class="col-11 pt-3 col-lg-8">
+          <div class="col-12 px-4 pt-3 col-lg-8">
             <h2 class="blue">{{blok.headline}}</h2>
             <p class="text-white">{{blok.address}}</p>
             <p><a class="text-white" :href="'mailto:' + blok.email.email">{{blok.email.email}}</a></p>
