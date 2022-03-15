@@ -11,8 +11,9 @@
       <b-collapse id="nav-collapse" is-nav>
         <b-navbar-nav class="ml-auto d-flex align-items-center">
           <a class="nav-link px-1 m-1" href="#">Home</a>
-          <a class="nav-link px-1 m-1" href="#band">The Band</a>
-          <a class="nav-link px-1 m-1" href="#music">Our Music</a>
+          <a class="nav-link px-1 m-1" href="#band">Band</a>
+          <a class="nav-link px-1 m-1" href="#gigs">Shows</a>
+          <a class="nav-link px-1 m-1" href="#music">Music</a>
           <a class="nav-link px-1 m-1" href="#merch">Merch</a>
           <a class="nav-link px-1 m-1" href="#videos">Videos</a>
           <a class="nav-link px-1 m-1" href="#contact">Contact</a>
