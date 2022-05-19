@@ -2,7 +2,7 @@
   <div class="video_player">
     <a class="anchor" id="videos"></a>
     <div 
-      class="video_player__inner row dark pt-5 pb-5 d-flex flex-column flex-lg-row justify-content-center align-items-center"
+      class="video_player__inner row pinkbg pt-5 pb-5 d-flex flex-column flex-lg-row justify-content-center align-items-center"
       v-editable="blok">
       <div class="container">
         <h2 class="text-center blue mb-3">{{blok.headline}}</h2>
@@ -18,10 +18,13 @@
 
 <style lang="scss">
   $dark: #181818;
+  $pink: #ffb6c1;
 
-  .row {
+  .pinkbg {
+    background-color: $pink;
     h2 {
       font-family: "alvarocondensed";
+      color: white;
     }
   }
   .dark {

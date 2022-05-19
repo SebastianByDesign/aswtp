@@ -36,6 +36,7 @@
       text-align: center;
       line-height: 1;
       color: black;
+      margin-bottom: 0.2rem;
     }
     .call-to-action {
       background-color: $blue;

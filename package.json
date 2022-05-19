@@ -31,6 +31,7 @@
     "@nuxtjs/style-resources": "^1.2.1",
     "fibers": "^5.0.0",
     "fs": "^0.0.1-security",
+    "nuxt-font-loader": "^1.1.4",
     "path": "^0.12.7",
     "sass": "^1.45.0",
     "sass-loader": "10.1.1"
