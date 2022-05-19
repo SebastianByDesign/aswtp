@@ -51,7 +51,6 @@
       font-family: "alvarocondensed";
       font-size: 2.5rem;
       margin-left: 0.75rem;
-      padding-bottom: 0;
       h1 {
         margin: 0;
         padding: 0;
