@@ -14,9 +14,9 @@
           <a class="nav-link px-1 m-1" href="#band">Band</a>
           <a class="nav-link px-1 m-1" href="#gigs">Shows</a>
           <a class="nav-link px-1 m-1" href="#music">Music</a>
-          <a class="nav-link px-1 m-1" href="#merch">Merch</a>
           <a class="nav-link px-1 m-1" href="#videos">Videos</a>
           <a class="nav-link px-1 m-1" href="#contact">Contact</a>
+          <a class="nav-link px-1 m-1" href="https://ashortwalktopluto.myshopify.com/">Merch</a>
           <b-navbar-nav class="px-1 is-row">
             <a class="nav-link px-1 m-1" href="https://www.facebook.com/shortwalktopluto/" target="_blank" rel="noopener noreferrer">
               <span><font-awesome-icon :icon="['fab', 'facebook']"/></span>

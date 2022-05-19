@@ -21,9 +21,6 @@ export default {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
-    ],
-    script: [
-      { hid: 'twitter', src: 'https://platform.twitter.com/widgets.js', defer: true }
     ]
   },
 
@@ -62,6 +59,12 @@ export default {
     ]
   },
 
+  shopify: {
+    domain: 'ashortwalktopluto.myshopify.com',
+    storefrontAccessToken: 'c61a9395df5ab8cd7d18c0d4c5f78d35',
+    unoptimized: true
+  },
+
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
     // https://go.nuxtjs.dev/bootstrap
@@ -75,7 +78,9 @@ export default {
         accessToken: 'cst5r6Ecnc78DKh5PrYQTAtt',
         cacheProvider: 'memory',
       }
-    ]
+    ],
+    // https://github.com/Gomah/nuxt-shopify
+    'nuxt-shopify'
   ],
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
