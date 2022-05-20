@@ -19,6 +19,9 @@ a:hover{
 img {
   width: 100%;
 }
+.row {
+  max-width: 120rem;
+}
 .anchor {
   display: block;
   position: relative;
