@@ -43,6 +43,9 @@
     background-color: $dark;
     border-bottom: 1px solid $dark;
     height: 58.25px;
+    @media (max-width: 991px) {
+      line-height: 1;
+    }
     .navbar-brand {
       font-size: 2.5rem;
       margin-left: 0.75rem;

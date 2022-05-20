@@ -37,6 +37,9 @@
       line-height: 0;
       text-align: center;
       width: 100%;
+      @media (max-width: 991px) {
+        line-height: 1;
+      }
       &::after{
         content: '';
         display: inline-block;
