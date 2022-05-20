@@ -1,7 +1,7 @@
 <template>
   <div class="gigs">
     <a class="anchor" id="gigs"></a>
-    <div class="gigs__inner row bluebg pt-5 pb-5 d-flex flex-column flex-lg-row justify-content-center align-items-center"
+    <div class="gigs__inner row pt-5 pb-5 d-flex flex-column flex-lg-row justify-content-center align-items-center"
       v-editable="blok">
       <div class="container px-4">
         <h2 class="text-center mb-3">{{blok.headline}}</h2>
@@ -38,13 +38,8 @@
   $blue: #BDE9F1;
   $pink: #ffb6c1;
 
-  .row {
-    h2 {
-      font-family: "alvarocondensed";
-    }
-    p, a, th, td {
-      font-family: Helvetica, Arial, sans-serif;
-    }
+  .gigs__inner {
+    background-color: $blue;
     table {
       width: 100%;
     }
@@ -62,9 +57,6 @@
       background-color: $pink !important;
       border-color: $pink !important;
     }
-  }
-  .bluebg {
-    background-color: $blue;
   }
 
 </style>

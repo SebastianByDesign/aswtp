@@ -16,7 +16,7 @@
 
   .hero {
     .hero__inner {
-      height: 95vh;
+      height: 98vh;
     }
     .bg {
       background-image: var(--bg-image);
@@ -32,11 +32,17 @@
       width: 100%;
     }
     h3 {
-      font-family: "alvarocondensed";
-      text-align: center;
-      line-height: 1;
       color: black;
-      margin-bottom: 0.2rem;
+      display: inline-block;
+      line-height: 0;
+      text-align: center;
+      width: 100%;
+      &::after{
+        content: '';
+        display: inline-block;
+        height: 1.3rem;
+        
+      }
     }
     .call-to-action {
       background-color: $blue;

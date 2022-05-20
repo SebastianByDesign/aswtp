@@ -20,7 +20,8 @@ export default {
       { property: 'og:type', content: 'website' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      { rel: 'stylesheet', type: 'text/css', href: '//db.onlinewebfonts.com/c/aa442bba8f51fdba33dbfb52c98720cf?family=Alvaro+Condensed' }
     ]
   },
 
@@ -44,10 +45,6 @@ export default {
     '@nuxtjs/fontawesome',
     '@nuxtjs/moment',
   ],
-
-  fontLoader: {
-    url: '~assets/css/main.css'
-  },
 
   fontawesome: {
     icons: {

@@ -45,37 +45,30 @@
   $blue: #BDE9F1;
   $pink: #ffb6c1;
 
-  .row {
-    h2 {
-      font-family: "alvarocondensed";
+  .contact {
+    .black {
+      background-color: black;
     }
-    a, p, th, td {
-      font-family: Helvetica, Arial, sans-serif;
-    }
-    li {
-      display: inline-block;
-    }
-    a {
-      &:hover {
-        color: $pink !important;
-        text-decoration: none;
+    .contact__inner {
+      h2 {
+        color: $blue;
+      }
+      li {
+        display: inline-block;
+      }
+      a {
+        &:hover {
+          color: $pink !important;
+          text-decoration: none;
+        }
+      }
+      .wendy {
+        height: 30vh;
+        @media (max-width: 991px) {
+          width: 100%;
+        }
       }
     }
-    .wendy {
-      height: 30vh;
-      @media (max-width: 991px) {
-        width: 100%;
-      }
-    }
-  }
-  .pink{
-    background-color: $pink;
-  }
-  .blue {
-    color: $blue
-  }
-  .black {
-    background-color: black;
   }
   
 </style>

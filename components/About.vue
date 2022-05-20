@@ -19,28 +19,6 @@
   </div>
 </template>
 
-<style lang="scss">
-
-  .row {
-    img {
-      width: 100%;
-    }
-    h2 {
-      font-family: "alvarocondensed";
-    }
-    p {
-      font-family: Helvetica, Arial, sans-serif;
-    }
-  }
-  .anchor {
-    display: block;
-    position: relative;
-    top: -50px;
-    visibility: hidden;
-  }
-  
-</style>
-
 <script>
 export default {
   props: {

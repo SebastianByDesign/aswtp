@@ -2,7 +2,7 @@
   <div class="music_player">
     <a class="anchor" id="music"></a>
     <div 
-      class="music_player__inner row dark pt-5 pb-5 d-flex flex-column flex-lg-row justify-content-center align-items-center"
+      class="music_player__inner row pt-5 pb-5 d-flex flex-column flex-lg-row justify-content-center align-items-center"
       v-editable="blok">
       <div class="container">
         <h2 class="text-center blue mb-3">{{blok.headline}}</h2>
@@ -47,26 +47,14 @@
 
 <style lang="scss">
 
-  .row {
-    $dark: #181818;
+  .music_player__inner {
+    background-color: #181818;
+    h2 {
+      color: white;
+    }
     img {
       width: 100%;
     }
-    h2 {
-      font-family: "alvarocondensed";
-    }
-    p {
-      font-family: Helvetica, Arial, sans-serif;
-    }
-    .dark {
-      background-color: $dark;
-    }
-  }
-  .anchor {
-    display: block;
-    position: relative;
-    top: -50px;
-    visibility: hidden;
   }
   
 </style>

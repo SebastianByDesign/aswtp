@@ -36,24 +36,24 @@
 
 <style lang="scss">
 
-  $blue: #BDE9F1;
   $dark: #000000;
   $pink: #ffb6c1;
-  $light: #ffffff;
-
-  $min-width: 300;
-  $max-width: 1600;
 
   .navbar {
     background-color: $dark;
     border-bottom: 1px solid $dark;
+    height: 58.25px;
     .navbar-brand {
-      font-family: "alvarocondensed";
       font-size: 2.5rem;
       margin-left: 0.75rem;
       h1 {
-        margin: 0;
-        padding: 0;
+        display: inline-block;
+        line-height: 0;
+        &::after{
+          content: '';
+          display: inline-block;
+          height: 2rem;
+        }
       }
     }
     .button {
@@ -65,7 +65,6 @@
     }
     .nav-link {
       color: white !important;
-      font-family: Helvetica, Arial, sans-serif;
       font-size: 1rem;
       text-transform: uppercase;
       i {
