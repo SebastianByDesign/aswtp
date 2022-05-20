@@ -21,7 +21,7 @@ export default {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-      { rel: 'stylesheet', type: 'text/css', href: '//db.onlinewebfonts.com/c/aa442bba8f51fdba33dbfb52c98720cf?family=Alvaro+Condensed' }
+      { rel: 'stylesheet', type: 'text/css', href: 'https://db.onlinewebfonts.com/c/aa442bba8f51fdba33dbfb52c98720cf?family=Alvaro+Condensed' }
     ]
   },
 
