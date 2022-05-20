@@ -1,3 +1,12 @@
+@font-face {
+  font-family: "Alvaro Condensed"; src: 
+  url("https://db.onlinewebfonts.com/t/aa442bba8f51fdba33dbfb52c98720cf.eot"); src: 
+  url("https://db.onlinewebfonts.com/t/aa442bba8f51fdba33dbfb52c98720cf.eot?#iefix") format("embedded-opentype"), 
+  url("https://db.onlinewebfonts.com/t/aa442bba8f51fdba33dbfb52c98720cf.woff2") format("woff2"), 
+  url("https://db.onlinewebfonts.com/t/aa442bba8f51fdba33dbfb52c98720cf.woff") format("woff"), 
+  url("https://db.onlinewebfonts.com/t/aa442bba8f51fdba33dbfb52c98720cf.ttf") format("truetype"), 
+  url("https://db.onlinewebfonts.com/t/aa442bba8f51fdba33dbfb52c98720cf.svg#Alvaro Condensed") format("svg"); 
+}
 body {
   font-family: Helvetica, Arial, sans-serif;
 }
